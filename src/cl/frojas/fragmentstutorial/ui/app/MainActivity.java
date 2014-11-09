@@ -1,10 +1,6 @@
 package cl.frojas.fragmentstutorial.ui.app;
 
 import cl.frojas.fragmentstutorial.R;
-import cl.frojas.fragmentstutorial.R.drawable;
-import cl.frojas.fragmentstutorial.R.id;
-import cl.frojas.fragmentstutorial.R.layout;
-import cl.frojas.fragmentstutorial.R.string;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -48,16 +44,16 @@ public class MainActivity extends Activity {
 		// Generate title
 		title = new String[] { 
 				"Fragment 1", 
-				"Title Fragment 2",
-				"Title Fragment 3",
-				"Title Fragment 4"};
+				"Fragment 2",
+				"Fragment 3",
+				"Fragment 4"};
 
 		// Generate subtitle
 		subtitle = new String[] { 
 				"Sesión", 
-				"Subtitle Fragment 2",
-				"Subtitle Fragment 3",
-				"Subtitle Fragment 4" };
+				"Otro Fragment",
+				"TaskFragment",
+				"Broadcast y Servicio" };
 
 		// Generate icon
 		icon = new int[] { R.drawable.action_about, 

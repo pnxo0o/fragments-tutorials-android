@@ -1,7 +1,6 @@
 package cl.frojas.fragmentstutorial.ui.app;
 
 import cl.frojas.fragmentstutorial.R;
-import cl.frojas.fragmentstutorial.R.layout;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;

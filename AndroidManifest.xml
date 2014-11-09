@@ -11,17 +11,27 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="cl.frojas.fragmentstutorial.ui.app.MainActivity" >
-            
-        </activity>
+        
         <activity android:name="cl.frojas.fragmentstutorial.BootActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name="cl.frojas.fragmentstutorial.ui.app.MainActivity" >
+        </activity>
+
         <activity android:name="cl.frojas.fragmentstutorial.ui.login.LoginActivity">
         </activity>
+        
+        <service android:name="cl.frojas.fragmentstutorial.servicios.Servicio"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cl.frojas.fragmentstutorial.servicios.Servicio.accion" />
+            </intent-filter>
+         </service>
     </application>
 
 </manifest>

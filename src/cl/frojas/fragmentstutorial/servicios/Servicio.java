@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 public class Servicio extends Service {
 	
-	public static final String ACCION = "coe.br.servicio.accion";
-	public static final String BROADCAST_ACTION = "coe.br.servicio.envio";
+	public static final String ACCION = "cl.frojas.fragmentstutorial.servicios.Servicio.accion";
+	public static final String BROADCAST_ACTION = "cl.frojas.fragmentstutorial.servicios.Servicio.envio";
 	
 	private Intent intento;
 	
