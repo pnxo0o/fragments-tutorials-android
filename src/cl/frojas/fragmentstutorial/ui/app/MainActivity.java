@@ -214,6 +214,13 @@ public class MainActivity extends Activity {
 	private void setActionBarArrowDependingOnFragmentsBackStack() {
 	    int backStackEntryCount = 
 	        getFragmentManager().getBackStackEntryCount();
+	    if(backStackEntryCount>0){
+	    	 mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
+	    }
+	    else{
+	    	 mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+	    }
+	   
 	    mDrawerToggle.setDrawerIndicatorEnabled(backStackEntryCount == 0);
 	}
 }
